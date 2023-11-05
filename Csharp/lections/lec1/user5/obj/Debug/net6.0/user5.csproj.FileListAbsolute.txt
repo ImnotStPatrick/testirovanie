@@ -1,0 +1,15 @@
+C:\Users\я\Desktop\testirovanie\Csharp\lections\lec1\user5\bin\Debug\net6.0\user5.exe
+C:\Users\я\Desktop\testirovanie\Csharp\lections\lec1\user5\bin\Debug\net6.0\user5.deps.json
+C:\Users\я\Desktop\testirovanie\Csharp\lections\lec1\user5\bin\Debug\net6.0\user5.runtimeconfig.json
+C:\Users\я\Desktop\testirovanie\Csharp\lections\lec1\user5\bin\Debug\net6.0\user5.dll
+C:\Users\я\Desktop\testirovanie\Csharp\lections\lec1\user5\bin\Debug\net6.0\user5.pdb
+C:\Users\я\Desktop\testirovanie\Csharp\lections\lec1\user5\obj\Debug\net6.0\user5.csproj.AssemblyReference.cache
+C:\Users\я\Desktop\testirovanie\Csharp\lections\lec1\user5\obj\Debug\net6.0\user5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\я\Desktop\testirovanie\Csharp\lections\lec1\user5\obj\Debug\net6.0\user5.AssemblyInfoInputs.cache
+C:\Users\я\Desktop\testirovanie\Csharp\lections\lec1\user5\obj\Debug\net6.0\user5.AssemblyInfo.cs
+C:\Users\я\Desktop\testirovanie\Csharp\lections\lec1\user5\obj\Debug\net6.0\user5.csproj.CoreCompileInputs.cache
+C:\Users\я\Desktop\testirovanie\Csharp\lections\lec1\user5\obj\Debug\net6.0\user5.dll
+C:\Users\я\Desktop\testirovanie\Csharp\lections\lec1\user5\obj\Debug\net6.0\refint\user5.dll
+C:\Users\я\Desktop\testirovanie\Csharp\lections\lec1\user5\obj\Debug\net6.0\user5.pdb
+C:\Users\я\Desktop\testirovanie\Csharp\lections\lec1\user5\obj\Debug\net6.0\user5.genruntimeconfig.cache
+C:\Users\я\Desktop\testirovanie\Csharp\lections\lec1\user5\obj\Debug\net6.0\ref\user5.dll
