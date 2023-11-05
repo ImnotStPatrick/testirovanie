@@ -1,6 +1,6 @@
 ﻿// проверка пятизначного палиндрома:
 
-/Console.WriteLine("Введите пятизначное число: ");
+/* Console.WriteLine("Введите пятизначное число: ");
 string number = Console.ReadLine();
 int num = number.Length;
 if (num == 5)
@@ -20,7 +20,7 @@ else
 
 }
 
-*/
+
 
 
 // программа принимает координаты трех точек на вход и находит расстояние между ними в 3д пространстве;
@@ -37,10 +37,42 @@ double b = Math.Pow(ay - by, 2);
 double c = Math.Pow(az - bz, 2);
 
 double result = Math.Sqrt(a+b+c);
-Console.WriteLine(result);
+Console.WriteLine(result);  */
 
 
 // программа принимает на вход число N и на выходе выдает таблицу кубов от 1 до N:
+
+/* int number = ReadInt("Введите число: ");
+
+for (int i = 1; i <= number; i++)
+{
+    Console.Write($"{i * i * i}, ");
+}
+
+// Метод
+int ReadInt(string message)
+{
+    Console.Write(message);
+    return Convert.ToInt32(Console.ReadLine());
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Console.WriteLine("введите число: ");
 string input= Console.ReadLine();
 int number = Convert.ToInt32(input);
@@ -52,6 +84,8 @@ while (a <= number)
     Console.Write($"{result}, ");
     a++;
 }
-*/
+
+
+
 
 
