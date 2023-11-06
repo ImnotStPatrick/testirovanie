@@ -58,7 +58,7 @@ int SumAllDigit(int number)
 int number = Prompt("введите число: ");
 Console.WriteLine($"сумма цифр в числе {number} = {SumAllDigit(number)}");
 
-*/
+
 
 //3.программа, которая задает массив из 8 элементов и выводит их на экран:
  
@@ -97,6 +97,7 @@ int max = Prompt("конечное значение: ");
 int[] array = GenerateArray(length, min, max);
  PrintArray(array);  
 
+*/
 
 
 
@@ -222,8 +223,7 @@ int[] array = GenerateArray(length, min, max);
 
 
 
-
-//Задачи с лекции: 
+//Задачи с семинара: 
 /* Console.Write("Введите число: ");
 string input = Console.ReadLine();
 int number = int.Parse(input);
@@ -250,4 +250,77 @@ x = number % 10;
 Console.WriteLine(x);
 number /= 10;
 }
-Console.WriteLine(x); */
+Console.WriteLine(x); 
+
+
+
+
+
+Console.Write("Введите число: ");
+string input = Console.ReadLine();
+int number = int.Parse(input);
+int tempNumber = number;
+int digitCount = 0;
+
+while(tempNumber > 0)
+{
+    digitCount++;
+    tempNumber /= 10;
+}
+
+Console.WriteLine($"{number} -> {digitCount}"); 
+
+
+
+
+Console.WriteLine("Введите число: ");
+string input = Console.ReadLine();
+int number = Convert.ToInt32(input);
+int result = 1;
+for( int i = 1; i <= number; i++)
+{ 
+    result = result * i;
+}
+Console.WriteLine(result);
+
+
+
+
+int[] numbers = new int [10] {1,2,3,4,5,6,7,8,9,10};
+int[] numbers2 = numbers;
+numbers[5]=256;
+for (int i = 0; i < numbers2.Length; i++)
+{
+    Console.WriteLine(numbers2[i]);
+}
+
+
+
+
+int[] numbers = {1,2,3,4,5,6,7,8,9,10};
+int[] numbers2={25,50,75};
+numbers[3]=256;
+numbers2[0]=numbers[2];
+numbers = numbers2;
+numbers[0]=57;
+for(int i=0; i<numbers2.Length; i++)
+{
+    Console.Write(numbers2[i] + " ");
+}
+Console.WriteLine();
+for (int i =0; i<numbers2.Length; i++)
+{
+    Console.Write(numbers[i] + " ");
+} 
+
+
+
+
+Random f = new Random();
+int[] numbers = new int[8];
+for (int i =0; i< numbers.Length; i++)
+{
+    numbers[i] = f.Next(0,1000000);
+    Console.Write(numbers[i]+ " ");
+
+} */
