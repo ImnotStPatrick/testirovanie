@@ -170,9 +170,15 @@ result++;
     }
     Console.WriteLine();
 }
-PrintArray(arr); */
+PrintArray(arr); 
 
-void SelectionSort (int[] arr); 
+   
+   
+   
+   
+   
+     Мое неправильное решение, пусть останется
+     void SelectionSort (int[] arr); 
 // int i = firstPosition; //= i;
 //int j = lastPosition; // = j;
 {
@@ -203,4 +209,118 @@ void PrintArray(int[] arr)
     }
     Console.WriteLine();
 }
-PrintArray(arr);
+PrintArray(arr); 
+
+
+
+
+// найти сумму произведения чисел в массиве- первого и последнего, второго и предпоследнего и тд
+//namespace CyberForum
+{
+    //class Program
+    {
+        static void Main()
+        {
+            int[] array = { 1, 3, 8, 3, 2 };
+ 
+            int sum = 0;
+            for (int i = 0; i <array.Length / 2; i++)
+            {
+                sum += array[i] * array[array.Length - 1 - i];
+            }
+ 
+            //Console.WriteLine(sum); // 11
+ 
+        }
+ // Console.WriteLine(sum);
+    }
+    //Console.WriteLine(sum);
+}
+
+  // решение от однокурсника: 
+Random randomizer = new Random();
+int[] numbers = new int[7];
+int minRanomNumber = 0;
+int maxRandoNUmber = 10;
+//int result = 0;
+int[] resultArray;
+
+for(int i = 0; i < numbers.Length; i++)
+{
+numbers[i] = randomizer.Next(minRanomNumber, maxRandoNUmber +1);
+Console.Write(numbers[i] + ",");
+
+}
+Console.WriteLine();
+if(numbers.Length % 2 == 0)
+{
+resultArray = new int[numbers.Length / 2];
+}
+else
+{
+resultArray = new int[numbers.Length / 2 + 1];
+}
+
+for(int i = 0; i < resultArray.Length; i++) // [1, 2, 3, 4, 5, 6] - 1*6, 2*5, 3*4
+{
+
+resultArray[i] = numbers[i] * numbers[(numbers.Length - 1) - i];
+
+}
+
+if (resultArray.Length % 2 != 0)
+{
+resultArray[resultArray.Length - 1] = numbers[numbers.Length / 2];
+}
+
+for(int i = 0; i < resultArray.Length; i++)
+{
+Console.Write(resultArray[i] + ", ");
+}
+Console.WriteLine(); 
+
+
+*/
+
+
+// решение преподавателя:
+Random randomizer = new Random();
+int minRandomNumber = 1;
+int maxRandomNumber = 10;
+int sizeArray = 4;
+int[] numbers = new int[sizeArray];
+
+for(int i = 0; i < numbers.Length; i++)
+{
+    numbers[i] = randomizer.Next(minRandomNumber, maxRandomNumber + 1);
+}
+
+WriteIntArray(numbers);
+
+int[] result;
+if (numbers.Length % 2 == 0)
+{
+    result = new int[numbers.Length / 2];
+}
+else
+{
+    result = new int[numbers.Length / 2 + 1];
+    result[result.Length - 1] = numbers[numbers.Length / 2];
+}
+
+for(int i = 0; i < numbers.Length / 2; i++)
+{
+    result[i] = numbers[i] * numbers[numbers.Length - 1 - i];
+}
+WriteIntArray(result);
+
+
+
+void WriteIntArray(int[] array)
+{
+    for(int i = 0; i < array.Length; i++)
+    {
+        Console.Write(array[i] + " ");
+    }
+    Console.WriteLine();
+}
